@@ -13,7 +13,7 @@ v = Observed water level (in feet)
 Stations being tracked:
 
 |	id	|	gauge	|	wind	|
-|	–––	|	–––	|	–––	|
+|	---	|	---	|	---	|
 |	8720030	|	Fernandina Beach, FL	|	Y	|
 |	8720218	|	Mayport, FL	|	Y	|
 |	8720219	|	Dames Point, FL	|	N	|
@@ -38,5 +38,5 @@ Stations being tracked:
 |	8729210	|	Panama City Beach, FL	|	Y	|
 |	8729840	|	Pensacola, FL	|	Y	|
 |	8670870	|	Fort Pulaski, GA	|	Y	|
-|	8665530	|	Charleston, SC	|	Y	|![image](https://user-images.githubusercontent.com/6544861/192830686-68a7be6b-04d0-43a2-999b-81eae310d6d4.png)
+|	8665530	|	Charleston, SC	|	Y	|
 
