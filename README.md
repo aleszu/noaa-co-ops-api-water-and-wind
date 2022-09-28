@@ -4,3 +4,8 @@ NOAA water and wind data for all Florida stations plus Fort Pulaski, GA and Char
 Data dictionary [here](https://api.tidesandcurrents.noaa.gov/api/prod/#station).
 
 Datum reference is MTL or mean tide level. More info on datums [here](https://tidesandcurrents.noaa.gov/datum_options.html).
+
+```
+t = Datetime in GMT
+v = Observed water level (in feet)
+```
