@@ -5,6 +5,8 @@ Data dictionary [here](https://api.tidesandcurrents.noaa.gov/api/prod/responseHe
 
 Datum reference is MTL or mean tide level. More info on datums [here](https://tidesandcurrents.noaa.gov/datum_options.html).
 
+For water levels: 
+
 ```
 t = Datetime in GMT
 v = Observed water level (in feet)
@@ -17,6 +19,19 @@ f = Data Flags - in order of listing:
 q = Quality Assurance/Quality Control level
     -- p = preliminary
     -- v = verified 
+```
+
+For wind: 
+
+```
+t =	Time - Date and time of the observation
+s =	Speed - Measured wind speed
+d =	Direction - wind direction in degrees
+dr= Direction - wind direction in text
+g =	Gust - Measured wind gust speed
+f =	Data Flags - in order of listing:
+    -- (X) A flag that when set to 1 indicates that the maximum wind speed was exceeded
+    -- (R) A flag that when set to 1 indicates that the rate of change tolerance limit was exceeded 
 ```
 
 Stations being tracked:
