@@ -35,6 +35,7 @@ jobs:
         curl "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20220920%2010:00&end_date=20221010%2010:24&station=8729840&product=wind&datum=mtl&units=english&time_zone=gmt&application=web_services&format=json" > 8729840-wind.json
         curl "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20220920%2010:00&end_date=20221010%2010:24&station=8670870&product=wind&datum=mtl&units=english&time_zone=gmt&application=web_services&format=json" > 8670870-wind.json
         curl "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20220920%2010:00&end_date=20221010%2010:24&station=8665530&product=wind&datum=mtl&units=english&time_zone=gmt&application=web_services&format=json" > 8665530-wind.json
+        curl "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20220920%2010:00&end_date=20221010%2010:24&station=8661070&product=wind&datum=mtl&units=english&time_zone=gmt&application=web_services&format=json" > 8661070-wind.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
