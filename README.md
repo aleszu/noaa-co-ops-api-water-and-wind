@@ -1,13 +1,22 @@
 # NOAA water and wind data for all Florida stations plus Fort Pulaski, GA and Charleston, SC
 Hits the CO-OPS API every 5 minutes for water level and wind data using Actions and an R script.
 
-Data dictionary [here](https://api.tidesandcurrents.noaa.gov/api/prod/#station).
+Data dictionary [here](https://api.tidesandcurrents.noaa.gov/api/prod/responseHelp.html).
 
 Datum reference is MTL or mean tide level. More info on datums [here](https://tidesandcurrents.noaa.gov/datum_options.html).
 
 ```
 t = Datetime in GMT
 v = Observed water level (in feet)
+s = Sigma - Standard deviation of 1 second samples used to compute the water level height
+f = Data Flags - in order of listing:
+    -- (O) Count of number of 1 second samples that fall outside a 3-sigma band about the mean
+    -- (F) A flag that when set to 1 indicates that the flat tolerance limit was exceeded
+    -- (R) A flag that when set to 1 indicates that the rate of change tolerance limit was exceeded
+    -- (L) A flag that when set to 1 indicates that either the maximum or minimum expected water level height limit was exceeded 
+q = Quality Assurance/Quality Control level
+    -- p = preliminary
+    -- v = verified 
 ```
 
 Stations being tracked:
