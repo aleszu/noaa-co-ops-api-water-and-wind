@@ -1,18 +1,6 @@
-
-
-
-
-<!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Error</title>
-</head>
+<head><title>504 Gateway Time-out</title></head>
 <body>
-
-Exception: possible bad request, please use https://tidesandcurrents.noaa.gov/api-helper/url-generator.html for help.
-
-
-
+<center><h1>504 Gateway Time-out</h1></center>
 </body>
 </html>
