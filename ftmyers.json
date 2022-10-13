@@ -1,6 +1,18 @@
+
+
+
+
+<!DOCTYPE html>
 <html>
-<head><title>502 Bad Gateway</title></head>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Error</title>
+</head>
 <body>
-<center><h1>502 Bad Gateway</h1></center>
+
+Exception: possible bad request, please use https://tidesandcurrents.noaa.gov/api-helper/url-generator.html for help.
+
+
+
 </body>
 </html>
